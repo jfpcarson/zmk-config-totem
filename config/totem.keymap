@@ -98,7 +98,7 @@ label= "BASE"                              ;
 
                 &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &kp G           &kp H       &mt RALT J  &mt RCTRL K &mt RSHFT L &mt RGUI QUOT
-    &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       &kp AS(COMMA)   &kp AS(DOT)     &kp AS(FSLH)       &none
+    &kp Z       &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M       AS(COMMA)   AS(DOT)     AS(FSLH)    &none
                                         &lt MSE ESC &lt MISC SPACE &lt SYM BSPC &lt NUM TAB &lt FUNC RET &kp DEL
                         >;
                 };
@@ -148,7 +148,7 @@ label= "MISC"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &none       &none       &none       &none           &MCLICK     &kp LC(C)   &kp LC(V)   &caps_word  &none
+                &none       &none       &none       &none       &none           MCLICK      &kp LC(C)   &kp LC(V)   &caps_word  &none
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &none           &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &none
     &none       &none       &none       &none       &none       &none           &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &none       &none
                                         &none       &trans      &none           &none       &none       &none
@@ -174,9 +174,9 @@ label= "NUM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &none       &none       &none       &none           &kp N7      &kp N8      &kp N9      &kp MINUS   &kp EQUAL
+                &none       &none       &none       &none       &none           &kp N7      &kp N8      &kp N9      AS(MINUS)   AS(EQUAL)
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &kp N4      &kp N5      &kp N6      &none       &kp INS
-    &none       &none       &none       &none       &none       &none           &kp N1      &kp N2      &kp N3      &kp DOT     &kp GRAVE   &none
+    &none       &none       &none       &none       &none       &none           &kp N1      &kp N2      &kp N3      AS(DOT)     AS(GRAVE)   &none
                                         &none       &none       &none           &trans      &none       &kp N0
                         >;
                 };
@@ -225,10 +225,10 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &none       &none       &none       &none           &kp AS(MINUS) &kp AS(LBRC) &kp AS(RBRC) &none   &none
-                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &kp AS(SEMI) &kp AS(NUBS) &none     &none       &none 
-    &trans      &none       &none       &none      &none        &none           &kp AS(GRAVE) &none      &none      &none       &none       &none
-                                        &none      &none        &trans          &none       &none        &none
+                &none       &none       &none       &none       &none           AS(MINUS)   AS(LBRC)    AS(RBRC)    &none       &none
+                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          AS(SEMI)    AS(NUBS)    &none       &none       &none 
+    &trans      &none       &none       &none      &none        &none           AS(GRAVE)   &none       &none       &none       &none       &none
+                                        &none      &none        &trans          &none       &none       &none
                         >;
                 };
 };
