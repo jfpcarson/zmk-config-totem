@@ -74,7 +74,7 @@
         flavor = "tap-preferred";
         bindings = <&mkp>, <&kp>;
       };
-};
+    };
 
         keymap {
                 compatible = "zmk,keymap";
@@ -230,4 +230,5 @@ label= "SYM"                               ;
                                         &none      &none        &trans          &none       &none       &none
                         >;
                 };
+        };
 };
