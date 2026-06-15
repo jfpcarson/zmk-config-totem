@@ -239,10 +239,10 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans
+                &none    &none      &none    &none    &none       &none         &kp MINUS    &none    &none     &kp DOT       
+                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &none  &none &knone &none   &nonde 
+    &trans      &none &none &trans      &trans      &trans          &none &none &none &none  &none   &none
+                                        &trans      &trans      &trans          &trans      &trans    &trans
                         >;
                 };
 };
