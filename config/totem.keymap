@@ -12,7 +12,8 @@
        
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200   // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // default: 10
-
+#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
+#define MCLICK &mc_esc LCLK LC(GRAVE)
 
 #include <dt-bindings/zmk/pointing.h>
 
@@ -29,8 +30,7 @@
 #define FUNC 4
 #define SYM 5
 
-#define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
-#define M_CLICK &mc_esc LCLK LC(GRAVE)
+
 
 &mt {
   quick-tap-ms = <100>;
