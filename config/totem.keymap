@@ -43,14 +43,6 @@
 };
 
 / {
-    combos {
-            compatible = "zmk,combos";
-            combo_esc {
-                timeout-ms = <50>;
-                key-positions = <0 1>;
-                bindings = <&kp ESC>;
-            };
-    };
     behaviors {
       as: auto_shift {
         compatible = "zmk,behavior-hold-tap";
