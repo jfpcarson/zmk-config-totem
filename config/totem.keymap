@@ -120,7 +120,7 @@ label= "MSE"                               ;
                 &none       &none       &none       &none       &none           &none       &msc SCRL_DOWN &mmv MOVE_UP &msc SCRL_UP &none
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D    &mt LALT F  &none           &none       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none
     &none       &none       &none       &none       &none       &none           &none       &none       &none       &none       &none       &none
-                                        &trans      &none       &none           &mkp LCLK   &mkp RCLK   &none
+                                        &trans      &trans       &trans           &mkp LCLK   &mkp RCLK   &none
                         >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -144,7 +144,7 @@ label= "MISC"                              ;
                 &none       &none       &none       &none       &none           MCLICK      &kp LC(C)   &kp LC(V)   &caps_word  &none
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &none           &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &none
     &none       &none       &none       &none       &none       &none           &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &none       &none
-                                        &none       &trans      &none           &none       &none       &none
+                                        &trans       &trans      &trans           &trans       &trans       &trans
                         >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -167,7 +167,7 @@ label= "NUM"                               ;
                 &none       &none       &none       &none       &none           AS(N7)      AS(N8)      AS(N9)      AS(MINUS)   AS(EQUAL)
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D    &mt LALT F  &trans          AS(N4)      AS(N5)      AS(N6)      &none       &kp INS
     &none       &none       &none       &none       &none       &none           AS(N1)      AS(N2)      AS(N3)      AS(DOT)     AS(GRAVE)   &none
-                                        &none       &none       &none           &trans      &none       AS(N0)
+                                        &trans       &trans       &tran           &trans      &none       AS(N0)
                         >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -190,7 +190,7 @@ label= "FUNC"                              ;
                 &none       &none       &none       &none       &none           &kp F7      &kp F8      &kp F9      &none       &kp F12
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &none           &kp F4      &kp F5      &kp F6      &none       &kp F11
     &out OUT_BLE &none       &none       &none       &none       &none          &kp F1      &kp F2      &kp F3      &none       &none       &out OUT_USB
-                                        &none       &none       &none           &none       &trans      &kp F10
+                                        &trans       &trans       &trans           &trans       &trans      &kp F10
                         >;
                 };
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -213,7 +213,7 @@ label= "SYM"                               ;
                 &none       &none       &none       &none       &none           AS(MINUS)   AS(LBRC)    AS(RBRC)    &none       &none
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D    &mt LALT F  &trans          AS(SEMI)    AS(NUBS)    &none       &none       &none
     &none      &none       &none       &none       &none       &none           AS(GRAVE)   &none       &none       &none       &none       &none
-                                            &none      &none        &trans          &none       &none       &none
+                                            &trans      &trans        &trans          &none       &none       &none
                         >;
                 };
         };
