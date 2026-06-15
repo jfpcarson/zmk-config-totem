@@ -240,7 +240,7 @@ label= "SYM"                               ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &none    &none      &none    &none    &none       &none         &kp MINUS    &none    &none     &kp DOT       
-                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &none  &none &none &none   &nonde 
+                &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          &none  &none &none &none   &none 
     &trans      &none &none &trans      &trans      &trans          &none &none &none &none  &none   &none
                                         &trans      &trans      &trans          &trans      &trans    &trans
                         >;
