@@ -10,7 +10,7 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
        
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 900   // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 800   // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 #define MCLICK &mc_esc LCLK LC(GRAVE)
