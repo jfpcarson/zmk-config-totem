@@ -16,6 +16,8 @@
 #define MCLICK &mc_esc LCLK LC(GRAVE)
 
 #include <dt-bindings/zmk/pointing.h>
+//todo
+// slow how quickly hold/autoshiftv happens
 
 
 #include <behaviors.dtsi>
@@ -51,7 +53,7 @@
       as: auto_shift {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
-        tapping-term-ms = <135>;
+        tapping-term-ms = <250>;
         quick-tap-ms = <0>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
@@ -60,14 +62,14 @@
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "tap-preferred";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <250>;
         bindings = <&mo>, <&kp>;
         display-name = "Layer-Tap";
        };
       mc_esc: mouse_click_escape { // <--- Your new custom Hold-Tap behavior
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
-        tapping-term-ms = <150>;
+        tapping-term-ms = <250>;
         quick-tap-ms = <0>;
         flavor = "tap-preferred";
         bindings = <&mkp>, <&kp>;
