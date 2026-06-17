@@ -212,7 +212,7 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &none       &none       &none       &none       &none           AS(MINUS)   AS(LBRC)    AS(RBRC)    &none       &none
+                &none       &none       &none       &none       &none           AS(MINUS)   AS(LBKT)    AS(RBKT)    &none       &none
                 &mt LGUI A  &mt LSHFT S &mt LCTRL D &mt LALT F  &trans          AS(SEMI)    AS(BSLH)    &none       &none       &none
     &none       &none       &none       &none       &none       &none           AS(GRAVE)   &none       &none       &none       &none       &none
                                             &trans      &trans        &trans          &none       &none       &none
