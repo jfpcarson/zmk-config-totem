@@ -1,5 +1,5 @@
 include:
-  - board: 'raytac_mdbt50q_cx_40_dongle'
+  - board: 'nrf52840dongle_nrf52840'
     shield: totem_dongle
   - board: 'xiao_ble//zmk'
     shield: totem_left
