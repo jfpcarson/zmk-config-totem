@@ -1,5 +1,5 @@
 include:
-  - board: 'xiao_ble//zmk'
+  - board: 'raytac_mdbt50q_db_40'
     shield: totem_dongle
   - board: 'xiao_ble//zmk'
     shield: totem_left
@@ -7,5 +7,5 @@ include:
     shield: totem_right
   - board: 'xiao_ble//zmk'
     shield: settings_reset
-  - board: 'xiao_ble//zmk'
+  - board: 'raytac_mdbt50q_db_40'
     shield: settings_reset
