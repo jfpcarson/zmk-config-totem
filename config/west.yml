@@ -7,9 +7,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: raytac-zmk-module
-      remote: zmkfirmware
-      url-base: https://github.com/raytac-corp
-      revision: main
   self:
     path: config
