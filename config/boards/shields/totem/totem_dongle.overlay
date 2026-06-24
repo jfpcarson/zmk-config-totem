@@ -1,0 +1,15 @@
+#include "totem.dtsi" // Includes the common definitions
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+        /* No zmk,matrix-transform needed for a dongle */
+    };
+
+    kscan0: kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
